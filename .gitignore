@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+*.dll
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+.env/
+pip-wheel-metadata/
+pip-log.txt
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Logs & Data ---
+*.log
+*.csv
+*.dat
+*.tmp
+*.sqlite3
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Tests ---
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
