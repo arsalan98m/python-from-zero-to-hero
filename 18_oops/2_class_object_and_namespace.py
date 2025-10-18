@@ -3,6 +3,12 @@ Each object has it own entity that is called namespace. It can
 posses its own features and methods or properties but doesn't
 bother other ones, This is exactly the namespaces and the 
 concept of namespaces in the world of object oriented programming.
+
+Important Note:
+Each object is actually having it's own namespace which doesn't
+effect other objects also doesn't effect the classes as well by default
+If you wish you can but by default it does not change any value.
+ 
 """
 
 
@@ -32,3 +38,4 @@ print("After update Chai.is_hot = ", Chai.is_hot)  # Output: True
 
 masala.flavour = "Masala"
 print("masalan.flavour = ", masala.flavour)  # Output: Masala
+print("Chai.flavour = ", Chai.flavour)  # AttributeError

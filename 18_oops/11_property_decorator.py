@@ -7,7 +7,7 @@ class TeaLeaf:
         as writing to this property. An this is a _ symbol which is used through out
         the industry. So whenever you see an _ underscore that means, this is having
         some thing special as a meaning. Now surely this can be done without underscore
-        as weill. But this is such a common thing and Python also knows this so python
+        as well. But this is such a common thing and Python also knows this so python
         doesn't treat this in a lot of places as _age you'll see `age` treated like this.
         """
         self._age = age

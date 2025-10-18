@@ -22,12 +22,15 @@ class BaseChai:
     def prepare(self):
         print(f"Preparing {self.type} chai....")
 
+# Inheritance from BaseChai class
+
 
 class MasalaChai(BaseChai):
     def add_spices(self):
         print("Adding cardamom, ginger, cloves.")
 
 
+# Here we are doing composition instead of inheritance
 class ChaiShop:
     """
     If you are actually inheriting all the values of this BaseChai class,
